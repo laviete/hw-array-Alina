@@ -9,6 +9,16 @@ function checkTwoDuplicateNumInArray(array) {
   }
   return false;
 }
+
+//function checkTwoDuplicateNumInArray(array) {
+//  for (let i = 0; i < array.length; i++) {
+//    if (array[i] === array[i - 1]) {
+//      return true;
+//    }
+//  }
+//  return false;
+//}
+
 const arr1 = [1, 2, 3, 4, 5];
 const key1 = 2;
 console.log(checkValueInArray(arr1, key1)); //true
