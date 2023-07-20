@@ -44,4 +44,4 @@ const arr4 = [9, 8, 7, 8, 6, 5];
 console.log(checkTwoDuplicateNumInArray(arr4)); //false(повторювані числа не задані поспіль)
 
 const arr5= [];
-console.log(checkTwoDuplicateNumInArray(arr5)); //false(пустий масив)
+console.log(checkTwoDuplicateNumInArray(arr5)); //false(порожній масив)
