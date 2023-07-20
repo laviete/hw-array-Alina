@@ -1,6 +1,7 @@
 function checkValueInArray(array, key) {
   return array.includes(key);
 }
+
 function checkTwoDuplicateNumInArray(array) {
   for (let i = 0; i < array.length - 1; i++) {
     if (array[i] === array[i + 1]) {
@@ -9,6 +10,15 @@ function checkTwoDuplicateNumInArray(array) {
   }
   return false;
 }
+
+//function checkTwoDuplicateNumInArray(array) {
+//  for (let i = 0; i < array.length - 1; i++) {
+//    if (array.at(i) === array.at(i + 1)) {
+//      return true;
+//    }
+//  }
+//  return false;
+//}
 
 //function checkTwoDuplicateNumInArray(array) {
 //  for (let i = 0; i < array.length; i++) {
